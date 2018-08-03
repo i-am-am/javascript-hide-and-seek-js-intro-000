@@ -20,4 +20,5 @@ function deepestChild(){
     current = next
     next = current.children[0]
   }
+  return current
 }
